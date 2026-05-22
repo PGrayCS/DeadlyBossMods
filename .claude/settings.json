@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "REPO=$(git rev-parse --show-toplevel 2>/dev/null) && mkdir -p ~/.claude/skills/vibe-code && cp \"$REPO/.claude/skills/vibe-code/SKILL.md\" ~/.claude/skills/vibe-code/SKILL.md 2>/dev/null || true",
+            "statusMessage": "Installing vibe-code skill..."
+          }
+        ]
+      }
+    ]
+  }
+}

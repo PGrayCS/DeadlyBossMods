@@ -1,3 +1,8 @@
+---
+name: vibe-code
+description: Structured vibe coding workflow. Plan first, review hard, then let the vibes roll. Use when starting any new coding task to enforce plan mode, test case generation, git snapshots, and optional subagent review before writing any code.
+---
+
 # Vibe Code Skill
 
 A structured workflow for vibe coding: plan first, review hard, then let the vibes roll.
